@@ -1,0 +1,60 @@
+/* Box Model Hack */
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+h1{
+  padding-top: 20px;
+}
+
+div{
+  display: flex;
+  gap: 80px
+}
+
+.test-btn{
+  background-color: rgb(50, 200, 150);
+  color: rgb(50, 200, 150);
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
